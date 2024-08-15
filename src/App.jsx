@@ -2,6 +2,11 @@
 import Navbar from "./components/Navbar.jsx"
 import HeroSection from "./components/HeroSection.jsx"
 import About from "./components/About.jsx"
+import Project from "./components/Project.jsx"
+import Skills from "./components/Skills.jsx"
+import ContactForm from "./components/ContactForm.jsx"
+import Footer from "./components/Footer.jsx"
+import Experience from "./components/Experience.jsx"
 
 const App = () => {
   return (
@@ -9,6 +14,11 @@ const App = () => {
       <Navbar/>
       <HeroSection/>
       <About/>
+      <Experience/>
+      <Project/>
+      <Skills/>
+      <ContactForm/>
+      <Footer/>
     </main>
   )
 }

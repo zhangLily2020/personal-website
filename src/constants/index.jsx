@@ -30,16 +30,16 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 
 export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Award", href: "#award" },
-  { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ];
 
 export const PROFILE = {
-  name: "Robert Butcher",
-  info: "Full-stack developer with a flair for graphic design.",
+  firstName: "Lily ",
+  lastName: "Zhang",
+  info: "3rd year passionate computer science student at The University of British Columbia.",
 };
 
 export const ABOUT = {
@@ -48,6 +48,37 @@ export const ABOUT = {
   text2:
     "Hello! I'm Robert Butcher, a full-stack developer with a flair for graphic design. I thrive on crafting web experiences that are not only visually stunning but also highly functional and user-friendly. My passion for detail ensures that every project is polished and professional. Beyond coding, I'm an avid explorer of new cultures and cuisines. My curiosity drives me to stay on the cutting edge of technology and design trends, bringing innovative and practical solutions to every challenge. Whether I'm developing a sleek website or diving into the latest tech, I am dedicated to delivering excellence in every project.",
 };
+
+export const EXPERIENCE = [
+  {
+    title: 'Graphic Designer',
+    company: 'ABC Design Studio, New York, NY',
+    period: '2021 - Present',
+    description: `Collaborate with clients to understand design requirements and objectives. 
+      Develop branding solutions, including logos, color palettes, and brand guidelines. 
+      Design marketing materials such as brochures, posters, and digital assets. 
+      Create visually appealing user interfaces for websites and applications.`,
+  },
+  {
+    title: 'Junior Graphic Designer',
+    company: 'XYZ Creative Agency, Los Angeles, CA',
+    period: '2018 - 2021',
+    description: `Assisted senior designers in creating design concepts and visual assets. 
+      Contributed to the development of brand identities and marketing collateral. 
+      Collaborated with the marketing team to ensure consistent design across campaigns. 
+      Gained hands-on experience in various design software and tools.`,
+  },
+  {
+    title: 'Intern Graphic Designer',
+    company: 'Creative Inc., San Francisco, CA',
+    period: '2017 - 2018',
+    description: `Supported design team in daily tasks. 
+      Assisted in creating visual content for social media and marketing campaigns. 
+      Conducted research and gathered inspiration for new design projects. 
+      Participated in brainstorming sessions and provided input on design concepts.`,
+  },
+];
+
 
 export const PROJECTS = [
   {
