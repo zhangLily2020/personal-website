@@ -10,11 +10,11 @@ const HeroSection = () => {
                 <motion.img 
                     src={profilePic} 
                     alt={"Lily Zhang"} 
-                    className="absolute inset-0 z-10 h-full w-full object-cover object-right"
+                    className="absolute inset-0 h-full w-full object-cover object-right"
                     initial={{opacity: 0}}
                     animate={{opacity: 1}}
                     transition={{duration: 1}}/>
-                <motion.div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent from-60% to-black lg:from-30%"
+                <motion.div className="absolute inset-0 bg-gradient-to-b from-transparent from-60% to-black lg:from-30%"
                     initial={{opacity:0}}
                     animate={{opacity:1}}
                     transition={{duration: 1}}> 
