@@ -39,7 +39,7 @@ const Skills = () =>{
                 whileInView="visible"
                 variants={containerVariants}
                 viewport={{once:true}}
-                className="mx-2 flex flex-col rounded-xl bg-gradient-to-b from-zinc-900 to-teal-950 px-4 py-10 lg:px-20">
+                className="mx-2 flex flex-col rounded-xl bg-gradient-to-b from-zinc-900 to-teal-950 px-4 py-10 lg:px-20 tracking-normal">
                 {SKILLS.map((skill,index) => (
                     <motion.div 
                     variants={itemVariants}

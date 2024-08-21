@@ -8,6 +8,7 @@ import { Toaster, toast } from 'react-hot-toast';
 import {motion} from "framer-motion"
 
 const ContactForm = () => {
+
         const [formData, setFormData] = useState({
             name: "",
             email: "",
@@ -101,6 +102,7 @@ const ContactForm = () => {
                     transition={{duration:0.8, delay:0.5}}
                     viewport={{once: true}}
                     onSubmit={handleSubmit}
+                    className="tracking-normal"
                     >
                     <div className="mb-4">
                         <input type = "text"
@@ -109,8 +111,11 @@ const ContactForm = () => {
                             value= {formData.name}
                             placeholder="Name"
                             onChange = {handleChange}
-                            className="mb-8 w-full appearance-none rounded-lg border-2 border-gray-700 bg-transparent px-3 py-2 
-                            text-sm focus:border-gray-400 focus:outline-none"/>
+                            className="mb-8 w-full appearance-none rounded-lg border-2 border-gray-600 bg-transparent px-3 py-2 
+                            text-sm focus:border-gray-400 focus:outline-none"
+                            style={{ fontWeight: '600' }}
+                            />
+
                             {errors.name && (
                                 <motion.p 
                                 initial={{opacity: 0}}
@@ -127,8 +132,9 @@ const ContactForm = () => {
                             value= {formData.email}
                             placeholder="Email"
                             onChange = {handleChange}
-                            className="mb-8 w-full appearance-none rounded-lg border-2 border-gray-700 bg-transparent px-3 py-2 
-                            text-sm focus:border-gray-400 focus:outline-none"/>
+                            className="mb-8 w-full appearance-none rounded-lg border-2 border-gray-600 bg-transparent px-3 py-2 
+                            text-sm focus:border-gray-400 focus:outline-none"
+                            style={{ fontWeight: '600' }}/>
                             {errors.email && (
                                 <motion.p 
                                 initial={{opacity: 0}}
@@ -144,8 +150,9 @@ const ContactForm = () => {
                             value= {formData.message}
                             placeholder="Message"
                             onChange = {handleChange}
-                            className="mb-8 w-full appearance-none rounded-lg border-2 border-gray-700 bg-transparent px-3 py-2 
-                            text-sm focus:border-gray-400 focus:outline-none" rows="4"/>
+                            className="mb-8 w-full appearance-none rounded-lg border-2 border-gray-600 bg-transparent px-3 py-2 
+                            text-sm focus:border-gray-400 focus:outline-none" rows="4"
+                            style={{ fontWeight: '600' }}/>
                             {errors.message && (
                                 <motion.p initial={{opacity: 0}}
                                 whileInView={{opacity:1}}

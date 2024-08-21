@@ -39,44 +39,55 @@ export const NAVIGATION_LINKS = [
 export const PROFILE = {
   firstName: "Lily ",
   lastName: "Zhang",
-  info: "3rd year passionate computer science student at The University of British Columbia.",
+  info: "Third year passionate computer science student at The University of British Columbia.",
 };
 
 export const ABOUT = {
   text1:
-    "I create dynamic, responsive websites that blend creativity with efficiency",
+    "I'M PASSIONATE ABOUT DEVELOPING MY EXPERTISE IN SOFTWARE ENGINEERING AND DESIGN",
   text2:
-    "Hello! I'm Robert Butcher, a full-stack developer with a flair for graphic design. I thrive on crafting web experiences that are not only visually stunning but also highly functional and user-friendly. My passion for detail ensures that every project is polished and professional. Beyond coding, I'm an avid explorer of new cultures and cuisines. My curiosity drives me to stay on the cutting edge of technology and design trends, bringing innovative and practical solutions to every challenge. Whether I'm developing a sleek website or diving into the latest tech, I am dedicated to delivering excellence in every project.",
+    "Hello! I'm Lily, a third year computer science student with a passion for problem-solving and a deep interest in software development. I love turning complex challenges into streamlined, efficient solutions, whether it's through coding, data analysis, or creating intuitive user interfaces. My curiosity drives me to explore the latest in technology, always seeking to learn and grow. Beyond the classroom, I enjoy participating in hackathons and collaborating on projects. I'm always eager to learn and adapt, striving to combine creativity with practicality in every task I undertake.",
 };
 
 export const EXPERIENCE = [
   {
-    title: 'Graphic Designer',
-    company: 'ABC Design Studio, New York, NY',
-    period: '2021 - Present',
+    title: 'Programmer Intern',
+    company: 'Tartigrade Ltd.',
+    period: 'May 2024 - Aug 2024',
     description: `Collaborate with clients to understand design requirements and objectives. 
       Develop branding solutions, including logos, color palettes, and brand guidelines. 
       Design marketing materials such as brochures, posters, and digital assets. 
       Create visually appealing user interfaces for websites and applications.`,
   },
   {
-    title: 'Junior Graphic Designer',
-    company: 'XYZ Creative Agency, Los Angeles, CA',
-    period: '2018 - 2021',
-    description: `Assisted senior designers in creating design concepts and visual assets. 
-      Contributed to the development of brand identities and marketing collateral. 
-      Collaborated with the marketing team to ensure consistent design across campaigns. 
-      Gained hands-on experience in various design software and tools.`,
+    title: 'Student Quantitative Analyst',
+    company: 'Canada Revenue Agency',
+    period: 'Sep 2023 - May 2024',
+    description: `Understood and extracted complex data from the agency data warehouse.
+    Retrieved large datasets using SQL, optimized queries for performance, and ensured data accuracy.
+    Leveraged SAS and R to perform comprehensive statistical analyses in both experimental studies and exploratory research projects.
+    Authored comprehensive preliminary and final analysis reports to articulate key findings, and shared insights with stakeholders.
+    Participated in the strategic planning and launch of a machine-learning initiative.`,
   },
   {
-    title: 'Intern Graphic Designer',
-    company: 'Creative Inc., San Francisco, CA',
-    period: '2017 - 2018',
-    description: `Supported design team in daily tasks. 
-      Assisted in creating visual content for social media and marketing campaigns. 
-      Conducted research and gathered inspiration for new design projects. 
-      Participated in brainstorming sessions and provided input on design concepts.`,
+    title: 'Data Analyst',
+    company: 'License Academy',
+    period: 'Mar - Apr 2023',
+    description: `Participated in the Venture for Canada's Intrapreneurship Program with License Academy.
+    Contributed to researching possible improvements to reduce greenhouse gas emissions in indoor agriculture.
+    Analyzed data for metrics to calculate and reduce carbon footprint in Vertical Farming.`,
   },
+  {
+    title: 'Student, Training and Certification Development',
+    company: 'Canadian Air Transport Security Authority',
+    period: 'Oct 2022 - Jan 2023',
+    description: `Student, Training and Certification Development, Canadian Air Transport Security Authority 
+    Created data quality monitoring reports, and identified issues detected in LMS (Learning Management System).
+    Resolved data integrity issues and discrepancies and supported team members in creating reports.
+    Participated in acceptance testing of new content releases or LMS features.`,
+  },
+  
+
 ];
 
 

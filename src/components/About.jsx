@@ -35,16 +35,16 @@ const About = () => {
                         whileInView={{opacity:1 ,x:0}}
                         transition={{duration: 1}}
                         viewport={{once: true}}
-                        className="p-4 pt-6 text-6xl uppercase lg:text-[4rem]">
+                        className="p-4 pt-6 text-6xl uppercase lg:text-[4rem] tracking-normal">
                         {ABOUT.text1}
                     </motion.h3>
-                    
+
                     <motion.p 
                         initial={{opacity:0,x:200}}
                         whileInView={{opacity:1, x:0}}
                         transition={{duration:1}}
                         viewport={{once:true}}
-                        className="mr-24 pl-4 text-xl leading-loose pb-32">
+                        className="mr-24 pl-4 text-xl leading-loose pb-32 tracking-wide">
                         {ABOUT.text2}
                     </motion.p>
                 </div>

@@ -36,7 +36,7 @@ const Experience = () => {
         
     <div   className="pt-7 bg-gradient-to-b from-teal-950 from-0%  to-black to-20%">
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background md:shadow-xl">
-            <span className="justify-center z-10">
+            <span className="justify-center z-10 ">
                 <div>
                     {/* <div className=" inset-0 z-10 bg-gradient-to-b from-black from-60% to-sky-900 lg:from-30%"> </div> */}
                     <div className="flex justify-center">
@@ -51,7 +51,7 @@ const Experience = () => {
                         </motion.h2>
                     </div>
 
-                    <div className="container mx-auto p-4 max-w-xl rounded-lg backdrop-blur-0
+                    <div className="container mx-auto p-4 max-w-2xl rounded-lg backdrop-blur-0 tracking-normal
                         lg:flex">
                         
                         <motion.div 
@@ -76,15 +76,16 @@ const Experience = () => {
                                             <Briefcase size={24} color="white" />
                                         </div>
                                         
-                                        <div className="ml-10">
-                                            <h3 className="text-2xl font-semibold">
+                                        <div className="ml-10 pb-3">
+                                            <h3 className="text-2xl font-semibold pb-3">
                                                 {Experience.title}
                                                 <br />
                                                 <span className="text-lg">{Experience.company}</span>
                                                 <br />
-                                                <span className="text-lg font-normal">{Experience.period}</span>
+                                                <span className="text-lg font-normal tracking-wide">{Experience.period}</span>
                                             </h3>
-                                            <p className="mt-2 text-lg font-normal">{Experience.description}</p>
+                                        
+                                            <p className="mt-2 text-lg font-normal tracking-wide">{Experience.description}</p>
                                         </div>
                                     </motion.div>
                                 ))}

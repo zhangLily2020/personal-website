@@ -39,7 +39,7 @@ const Projects = () => {
 
     return (
     <div>
-        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background md:shadow-xl">
+        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg tracking-normal bg-background md:shadow-xl">
             <span className="justify-center z-10">
                 <div className="flex justify-center pb-3">
                     <motion.h2 
