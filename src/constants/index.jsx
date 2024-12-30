@@ -7,21 +7,37 @@ import {
   // FaInstagram,
 } from "react-icons/fa6";
 
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+// import { RiReactjsLine } from "react-icons/ri";
+// import { TbBrandNextjs } from "react-icons/tb";
+// import { SiMongodb } from "react-icons/si";
+// import { DiRedis } from "react-icons/di";
+// import { FaNodeJs } from "react-icons/fa";
+// import { BiLogoPostgresql } from "react-icons/bi";
+// import { FaJava } from "react-icons/fa";
+// import { SiMysql } from "react-icons/si";
+// import { FaPython } from "react-icons/fa";
+import R_logo from "../assets/R_logo.png";
+import java_icon from "../assets/java_icon.png";
+import sql_icon from "../assets/sql-database.png";
+import python_icon from "../assets/python-icon.png";
+import react_logo from "../assets/react-logo.png"
+import { SiDevpost } from "react-icons/si";
 
-import image1 from "../assets/project1.jpeg";
-import image2 from "../assets/project2.jpeg";
-import image3 from "../assets/project3.jpeg";
-import image4 from "../assets/project4.jpeg";
-import image5 from "../assets/project5.jpeg";
-import image6 from "../assets/project6.jpeg";
-import image7 from "../assets/project7.jpeg";
-import image8 from "../assets/project8.jpeg";
+// import image1 from "../assets/project1.jpeg";
+// import image2 from "../assets/project2.jpeg";
+// import image3 from "../assets/project3.jpeg";
+// import image4 from "../assets/project4.jpeg";
+// import image5 from "../assets/project5.jpeg";
+// import image6 from "../assets/project6.jpeg";
+// import image7 from "../assets/project7.jpeg";
+// import image8 from "../assets/project8.jpeg";
+import toaster_project from "../assets/Toasters-project.png";
+import roomrival_p1 from "../assets/roomrival-project.jpg";
+// import roomrival_p2 from "../assets/roomrival-project2.jpg";
+import virtualprep_p from "../assets/virtualprep-project.png";
+import personalPortfolio from "../assets/personal-profile.png";
+import rhythmGame from "../assets/rhythmGame.png"
+
 
 // import user1 from "../assets/profile-pictures/user1.jpg";
 // import user2 from "../assets/profile-pictures/user2.jpg";
@@ -39,52 +55,52 @@ export const NAVIGATION_LINKS = [
 export const PROFILE = {
   firstName: "Lily ",
   lastName: "Zhang",
-  info: "Third year passionate computer science student at The University of British Columbia.",
+  // info: "Fourth year passionate Computer Science student at The University of British Columbia.",
 };
 
 export const ABOUT = {
   text1:
-    "I'M PASSIONATE ABOUT DEVELOPING MY EXPERTISE IN SOFTWARE ENGINEERING AND DESIGN",
+    "I'M PASSIONATE ABOUT DEVELOPING MY SKILLS IN SOFTWARE ENGINEERING",
   text2:
-    "Hello! I'm Lily, a third year computer science student with a passion for problem-solving and a deep interest in software development. I love turning complex challenges into streamlined, efficient solutions, whether it's through coding, data analysis, or creating intuitive user interfaces. My curiosity drives me to explore the latest in technology, always seeking to learn and grow. Beyond the classroom, I enjoy participating in hackathons and collaborating on projects. I'm always eager to learn and adapt, striving to combine creativity with practicality in every task I undertake.",
+    "Hello! I'm Lily, a fourth year computer science student at The University of British Columbia with a passion for problem-solving and a deep interest in software development. I love turning complex challenges into streamlined, efficient solutions, whether it's through coding softwares, data analysis, or machine learning. My curiosity drives me to always seek to learn and grow. Beyond the classroom, I enjoy participating in hackathons and collaborating on cool projects.",
 };
 
 export const EXPERIENCE = [
   {
-    title: 'Programmer Intern',
+    title: 'Software Developer Intern',
     company: 'Tartigrade Ltd.',
     period: 'May 2024 - Aug 2024',
-    description: `Collaborate with clients to understand design requirements and objectives. 
-      Develop branding solutions, including logos, color palettes, and brand guidelines. 
-      Design marketing materials such as brochures, posters, and digital assets. 
-      Create visually appealing user interfaces for websites and applications.`,
+    // description: `Collaborate with clients to understand design requirements and objectives. 
+    //   Develop branding solutions, including logos, color palettes, and brand guidelines. 
+    //   Design marketing materials such as brochures, posters, and digital assets. 
+    //   Create visually appealing user interfaces for websites and applications.`,
   },
   {
     title: 'Student Quantitative Analyst',
     company: 'Canada Revenue Agency',
     period: 'Sep 2023 - May 2024',
-    description: `Understood and extracted complex data from the agency data warehouse.
-    Retrieved large datasets using SQL, optimized queries for performance, and ensured data accuracy.
-    Leveraged SAS and R to perform comprehensive statistical analyses in both experimental studies and exploratory research projects.
-    Authored comprehensive preliminary and final analysis reports to articulate key findings, and shared insights with stakeholders.
-    Participated in the strategic planning and launch of a machine-learning initiative.`,
+    // description: `Understood and extracted complex data from the agency data warehouse.
+    // Retrieved large datasets using SQL, optimized queries for performance, and ensured data accuracy.
+    // Leveraged SAS and R to perform comprehensive statistical analyses in both experimental studies and exploratory research projects.
+    // Authored comprehensive preliminary and final analysis reports to articulate key findings, and shared insights with stakeholders.
+    // Participated in the strategic planning and launch of a machine-learning initiative.`,
   },
   {
     title: 'Data Analyst',
     company: 'License Academy',
-    period: 'Mar - Apr 2023',
-    description: `Participated in the Venture for Canada's Intrapreneurship Program with License Academy.
-    Contributed to researching possible improvements to reduce greenhouse gas emissions in indoor agriculture.
-    Analyzed data for metrics to calculate and reduce carbon footprint in Vertical Farming.`,
+    period: 'Mar 2023 - Apr 2023',
+    // description: `Participated in the Venture for Canada's Intrapreneurship Program with License Academy.
+    // Contributed to researching possible improvements to reduce greenhouse gas emissions in indoor agriculture.
+    // Analyzed data for metrics to calculate and reduce carbon footprint in Vertical Farming.`,
   },
   {
     title: 'Student, Training and Certification Development',
     company: 'Canadian Air Transport Security Authority',
     period: 'Oct 2022 - Jan 2023',
-    description: `Student, Training and Certification Development, Canadian Air Transport Security Authority 
-    Created data quality monitoring reports, and identified issues detected in LMS (Learning Management System).
-    Resolved data integrity issues and discrepancies and supported team members in creating reports.
-    Participated in acceptance testing of new content releases or LMS features.`,
+    // description: `Student, Training and Certification Development, Canadian Air Transport Security Authority 
+    // Created data quality monitoring reports, and identified issues detected in LMS (Learning Management System).
+    // Resolved data integrity issues and discrepancies and supported team members in creating reports.
+    // Participated in acceptance testing of new content releases or LMS features.`,
   },
   
 
@@ -93,82 +109,71 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    title: "E-commerce Platform",
+    title: "Hackathon project: Complement Giving Website",
     subtitle:
-      "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
-    image: image1,
+      "A full-stack website built with React, Node.js, and MappedIn.",
+    image: toaster_project,
+    link: "https://devpost.com/software/toasters",
   },
   {
-    title: "Social Media App",
+    title: "Hackathon project: Interactive Game Website",
     subtitle:
       "A social media application developed using Next.js and Firebase.",
-    image: image2,
-  },
-  {
-    title: "Project Management Tool",
-    subtitle: "A project management tool built with Django and PostgreSQL.",
-    image: image3,
+    image: roomrival_p1,
+    link: "https://devpost.com/software/roomrival",
   },
   {
     title: "Personal Portfolio",
     subtitle:
-      "A personal portfolio website designed with HTML, CSS, and JavaScript.",
-    image: image4,
+      "A personal portfolio website designed with React, Node.js, and Tailwind.",
+    image: personalPortfolio,
+    link: "#",
   },
   {
-    title: "Weather Dashboard",
+    title: "Music Rhythm Game",
+    subtitle: "A rhythm game with custom visuals and music built with Unity and C#.",
+    image: rhythmGame,
+    link: "https://www.youtube.com/watch?v=Gcul3Cpx8Pk",
+  },
+  {
+    title: "Hackathon project: VR Interview Simulator",
     subtitle:
-      "A weather dashboard application built with Vue.js and Express.js.",
-    image: image5,
-  },
-  {
-    title: "Blog Platform",
-    subtitle:
-      "A blogging platform developed with Ruby on Rails and PostgreSQL.",
-    image: image6,
-  },
-  {
-    title: "Fitness Tracker",
-    subtitle: "A fitness tracking app created using Flutter and Firebase.",
-    image: image7,
-  },
-  {
-    title: "Recipe Finder",
-    subtitle: "A recipe finder application developed with Angular and Node.js.",
-    image: image8,
+      "A VR simulation for interview practice built with Unity and C#.",
+    image: virtualprep_p,
+    link: "https://devpost.com/software/virtualprep",
   },
 ];
 
 export const SKILLS = [
   {
-    icon: <RiReactjsLine className="text-4xl lg:text-6xl text-cyan-400" />,
+    // icon: <FaJava className="text-4xl lg:text-6xl text-white" />,
+    icon: <img src={java_icon} alt="icon" className="w-10 h-10 lg:w-16 lg:h-16" />,
+    name: "Java",
+    experience: "4+ year",
+  },
+  {
+    // icon: <SiMysql className="text-4xl lg:text-6xl text-sky-700" />,
+    icon: <img src={sql_icon} alt="icon" className="w-8 h-10 lg:w-14 lg:h-16 pl-1" />,
+    name: "SQL",
+    experience: "2+ year",
+  },
+  {
+    // icon: <R_logo className="text-4xl lg:text-6xl text-red-600" />,
+    icon: <img src={R_logo} alt="icon" className="w-10 h-9 lg:w-16 lg:h-14" />,
+    name: "R",
+    experience: "3+ year",
+  },
+  {
+    // icon: <FaPython className="text-4xl lg:text-6xl text-green-600" />,
+    icon: <img src={python_icon} alt="icon" className="w-10 h-10 lg:w-16 lg:h-16" />,
+    name: "Python",
+    experience: "1+ years",
+  },
+  {
+    // icon: <RiReactjsLine className="text-5xl lg:text-7xl text-cyan-400" />,
+    icon: <img src={react_logo} alt="icon" className="w-12 h-12 lg:w-16 lg:h-16" />,
     name: "React",
-    experience: "2+ years",
-  },
-  {
-    icon: <TbBrandNextjs className="text-4xl lg:text-6xl text-white" />,
-    name: "Next.js",
-    experience: "1+ year",
-  },
-  {
-    icon: <SiMongodb className="text-4xl lg:text-6xl text-green-600" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
-  },
-  {
-    icon: <DiRedis className="text-4xl lg:text-6xl text-red-600" />,
-    name: "Redis",
-    experience: "1+ year",
-  },
-  {
-    icon: <FaNodeJs className="text-4xl lg:text-6xl text-green-600" />,
-    name: "Node.js",
-    experience: "2+ years",
-  },
-  {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
-    name: "PostgreSQL",
-    experience: "1+ year",
+    experience: "1+ years",
   },
 ];
 
@@ -234,5 +239,9 @@ export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://www.linkedin.com/in/lily-zhang-2b80091b5/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://devpost.com/zhangLily2020?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav",
+    icon: <SiDevpost fontSize={25} className="hover:opacity-80" />,
   },
 ];

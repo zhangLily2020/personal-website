@@ -64,13 +64,13 @@ const Experience = () => {
                             initial={{opacity:0}}
                             animate={{opacity:1}}
                             transition={{duration: 2.5, delay:0.2}}
-                            className="border-l-2 border-gray-300 absolute left-6 h-full top-0"></motion.div>
+                            className="border-l-2 border-gray-300 absolute left-6 h-full top-0 ml-20"></motion.div>
                             <div>
                                 {EXPERIENCE.map((Experience,index) =>(
                                     <motion.div 
                                         variants={itemVariants}
                                         key={index} 
-                                        className="relative flex items-start mb-10">
+                                        className="relative flex items-start mb-10 ml-20">
                                         
                                         <div className="relative flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full border-2 border-white bg-teal-600">
                                             <Briefcase size={24} color="white" />

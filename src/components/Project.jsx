@@ -59,7 +59,7 @@ const Projects = () => {
                     whileInView= "visible"
                     variants={containerVariants}
                     viewport={{once: true}}
-                    className="flex flex-wrap gap-x-24 gap-y-12 justify-center py-8 mx-1">
+                    className="flex flex-wrap gap-x-20 gap-y-12 justify-center py-8 mx-1">
                     {PROJECTS.map((Projects,index) =>(
                         <motion.div 
                             variants={itemVariants}
@@ -67,7 +67,7 @@ const Projects = () => {
                                 <Card image={Projects.image}
                                 title={Projects.title}
                                 subtitle={Projects.subtitle}
-                                links="#" />
+                                link={Projects.link} />
                         </motion.div>
                     ))}
                 </motion.div>
