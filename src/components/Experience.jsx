@@ -1,5 +1,5 @@
 "use client";
-import Particles from "./magicui/particles";
+import Particles from "./magicui/Particles";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { EXPERIENCE } from "../constants"
